@@ -1,0 +1,9 @@
+def is_isogram(string):
+    #your code here
+    stringA= list(string)
+    stringB= set(string.lower())
+    if len(stringA)==len(stringB):
+        return True
+    else:
+        return False
+        
